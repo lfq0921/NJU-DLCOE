@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CS/lab/lab10/lab10.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-311] analyzing module barrel
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CS/lab/lab10/lab10.srcs/sim_1/new/lab10_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_t
+INFO: [VRFC 10-311] analyzing module dmem_t

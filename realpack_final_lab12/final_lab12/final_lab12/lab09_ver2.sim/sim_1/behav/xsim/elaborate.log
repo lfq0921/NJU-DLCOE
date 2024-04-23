@@ -1,0 +1,26 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: H:/For_Vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto b553826d9ac843f5986252651a082bcb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot lab09_behav xil_defaultlib.lab09 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'wea' is not connected on this instance [H:/labs_Vivado/lab09_ver2/lab09_ver2.srcs/sources_1/new/lab09.v:545]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ps2_keyboard
+Compiling module xil_defaultlib.bcd7seg
+Compiling module xil_defaultlib.scancode_ram
+Compiling module xil_defaultlib.clkgen(clk_freq=25000000)
+Compiling module xil_defaultlib.vga_ctrl
+Compiling module xil_defaultlib.vga_ascii
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.char_buf
+Compiling module xil_defaultlib.clkgen(clk_freq=1)
+Compiling module xil_defaultlib.lab09
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot lab09_behav

@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Feb 22 19:49:49 2023
+# Process ID: 16572
+# Current directory: C:/Users/DELL/Desktop/final_lab12
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18780 C:\Users\DELL\Desktop\final_lab12\lab09_ver2.xpr
+# Log file: C:/Users/DELL/Desktop/final_lab12/vivado.log
+# Journal file: C:/Users/DELL/Desktop/final_lab12\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/DELL/Desktop/final_lab12/lab09_ver2.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/DELL/Desktop/file_lab12/final_lab12' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'H:/For_Vivado/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:08 . Memory (MB): peak = 1112.598 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Feb 22 19:55:25 2023...

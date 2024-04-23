@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Oct 21 15:28:48 2022
+# Process ID: 10812
+# Current directory: D:/CS/lab/lab06/lab06.runs/synth_1
+# Command line: vivado.exe -log lfsr_seg.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lfsr_seg.tcl
+# Log file: D:/CS/lab/lab06/lab06.runs/synth_1/lfsr_seg.vds
+# Journal file: D:/CS/lab/lab06/lab06.runs/synth_1\vivado.jou
+# Running On: DESKTOP-FKMFD8S, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16844 MB
+#-----------------------------------------------------------
+source lfsr_seg.tcl -notrace

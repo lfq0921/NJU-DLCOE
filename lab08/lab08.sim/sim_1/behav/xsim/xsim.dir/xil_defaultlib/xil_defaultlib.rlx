@@ -1,0 +1,9 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+H:/DigitalLab/lab08/lab08.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1669352331,verilog,,H:/DigitalLab/lab_06/lab_06.srcs/sources_1/new/clkgen.v,,blk_mem_gen_0,,,,,,,,
+H:/DigitalLab/lab08/lab08.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,
+H:/DigitalLab/lab08/lab08.srcs/sim_1/new/vga_test.v,1669349815,verilog,,,,vga_test,,,,,,,,
+H:/DigitalLab/lab08/lab08.srcs/sources_1/new/lab08.v,1669349447,verilog,,H:/DigitalLab/lab08/lab08.srcs/sim_1/new/vga_test.v,,vga_ctrl;vga_gen,,,,,,,,
+H:/DigitalLab/lab_06/lab_06.srcs/sources_1/new/clkgen.v,1669278964,verilog,,H:/DigitalLab/lab08/lab08.srcs/sources_1/new/lab08.v,,clkgen,,,,,,,,

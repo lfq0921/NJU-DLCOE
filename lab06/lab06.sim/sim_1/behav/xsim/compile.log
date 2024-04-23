@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CS/lab/lab06/lab06.srcs/sources_1/new/lab06.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shiftreg
+INFO: [VRFC 10-311] analyzing module barrel
+INFO: [VRFC 10-311] analyzing module lfsr
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CS/lab/lab06/lab06.srcs/sim_1/new/lab06_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shiftreg_t
+INFO: [VRFC 10-311] analyzing module barrel_t
+INFO: [VRFC 10-311] analyzing module lfsr_t

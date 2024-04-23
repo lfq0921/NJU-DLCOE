@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1666286336">
+  <File Type="ROUTE-PWR" Name="alu_s_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="alu_s.tcl"/>
+  <File Type="BITSTR-MMI" Name="alu_s.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="alu_s_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="alu_s_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="alu_s_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="alu_s_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="alu_s_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="alu_s_opt.dcp"/>
+  <File Type="OPT-DRC" Name="alu_s_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="alu_s.hwdef"/>
+  <File Type="PWROPT-DCP" Name="alu_s_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="alu_s_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="alu_s_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="alu_s_placed.dcp"/>
+  <File Type="PLACE-IO" Name="alu_s_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="alu_s_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="alu_s_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="alu_s_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="alu_s_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="alu_s_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="alu_s_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="alu_s.bin"/>
+  <File Type="PLACE-TIMING" Name="alu_s_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="alu_s_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="alu_s.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="alu_s_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="alu_s_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="alu_s_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="alu_s.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="alu_s_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="alu_s_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="alu_s_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="alu_s_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="alu_s_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="alu_s_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="alu_s_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="alu_s_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="alu_s_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="alu_s_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="alu_s_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="alu_s_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="alu_s_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="alu_s_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="alu_s_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="alu_s_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="alu_s_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="alu_s_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="alu_s_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="alu_s_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="alu_s_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="alu_s_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="alu_s_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="alu_s_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="alu_s_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="alu_s_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="alu_s_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="alu_s.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="alu_s_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="alu_s_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="alu_s.nky"/>
+  <File Type="BITSTR-BMM" Name="alu_s_bd.bmm"/>
+  <File Type="PDI-FILE" Name="alu_s.pdi"/>
+  <File Type="RCFI_FILE" Name="alu_s.rcfi"/>
+  <File Type="CFI_FILE" Name="alu_s.cfi"/>
+  <File Type="RNPI_FILE" Name="alu_s.rnpi"/>
+  <File Type="NPI_FILE" Name="alu_s.npi"/>
+  <File Type="RBD_FILE" Name="alu_s.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="alu_s.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="alu_s.sysdef"/>
+  <File Type="BG-BGN" Name="alu_s.bgn"/>
+  <File Type="BG-DRC" Name="alu_s.drc"/>
+  <File Type="RDI-RDI" Name="alu_s.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="alu_s_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="alu_s_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/lab03.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="alu_s"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../nexysa7-03.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/alu_s.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

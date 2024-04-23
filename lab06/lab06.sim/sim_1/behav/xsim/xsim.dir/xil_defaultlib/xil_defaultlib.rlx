@@ -1,0 +1,7 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+D:/CS/lab/lab06/lab06.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,
+D:/CS/lab/lab06/lab06.srcs/sim_1/new/lab06_test.v,1666151407,verilog,,,,barrel_t;lfsr_t;shiftreg_t,,,,,,,,
+D:/CS/lab/lab06/lab06.srcs/sources_1/new/lab06.v,1666151442,verilog,,D:/CS/lab/lab06/lab06.srcs/sim_1/new/lab06_test.v,,barrel;lfsr;shiftreg,,,,,,,,

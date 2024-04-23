@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Feb 23 10:41:36 2023
+# Process ID: 15740
+# Current directory: C:/Users/DELL/Desktop/final_lab12/lab09_ver2.runs/synth_1
+# Command line: vivado.exe -log lab09.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab09.tcl
+# Log file: C:/Users/DELL/Desktop/final_lab12/lab09_ver2.runs/synth_1/lab09.vds
+# Journal file: C:/Users/DELL/Desktop/final_lab12/lab09_ver2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source lab09.tcl -notrace

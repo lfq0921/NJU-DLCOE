@@ -1,0 +1,7 @@
+Running: xsim.dir/m_mux21_vlg_tst_behav/xsimk.exe -simmode gui -wdb m_mux21_vlg_tst_behav.wdb -simrunnum 0 -socket 59329
+Design successfully loaded
+Design Loading Memory Usage: 7164 KB (Peak: 7164 KB)
+Design Loading CPU Usage: 93 ms
+Simulation completed
+Simulation Memory Usage: 7684 KB (Peak: 7684 KB)
+Simulation CPU Usage: 93 ms

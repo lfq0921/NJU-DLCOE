@@ -1,0 +1,121 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Feb 23 10:28:18 2023
+# Process ID: 17332
+# Current directory: C:/Users/DELL/Desktop/final_lab12
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21376 C:\Users\DELL\Desktop\final_lab12\lab09_ver2.xpr
+# Log file: C:/Users/DELL/Desktop/final_lab12/vivado.log
+# Journal file: C:/Users/DELL/Desktop/final_lab12\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/DELL/Desktop/final_lab12/lab09_ver2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'H:/For_Vivado/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:43 ; elapsed = 00:00:18 . Memory (MB): peak = 1091.566 ; gain = 0.000
+update_compile_order -fileset sources_1
+WARNING: [Common 17-9] Error reading message records.
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INopen_hw_manager
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Couldn't access process for termination
+
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Thu Feb 23 10:43:09 2023] Launched synth_1...
+Run output will be captured here: C:/Users/DELL/Desktop/final_lab12/lab09_ver2.runs/synth_1/runme.log
+[Thu Feb 23 10:43:10 2023] Launched impl_1...
+Run output will be captured here: C:/Users/DELL/Desktop/final_lab12/lab09_ver2.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Thu Feb 23 10:43:52 2023] Launched synth_1...
+Run output will be captured here: C:/Users/DELL/Desktop/final_lab12/lab09_ver2.runs/synth_1/runme.log
+[Thu Feb 23 10:43:52 2023] Launched impl_1...
+Run output will be captured here: C:/Users/DELL/Desktop/final_lab12/lab09_ver2.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 23 10:45:14 2023...
+ices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/final_lab12/lab09_ver2.runs/impl_1/lab09.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/DELL/Desktop/final_lab12/lab09_ver2.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Thu Feb 23 10:41:31 2023] Launched synth_1...
+Run output will be captured here: C:/Users/DELL/Desktop/final_lab12/lab09_ver2.runs/synth_1/runme.log
+[Thu Feb 23 10:41:31 2023] Launched impl_1...
+Run output will be captured here: C:/Users/DELL/Desktop/final_lab12/lab09_ver2.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Couldn't access process for termination
+
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Thu Feb 23 10:45:35 2023] Launched synth_1...
+Run output will be captured here: C:/Users/DELL/Desktop/final_lab12/lab09_ver2.runs/synth_1/runme.log
+[Thu Feb 23 10:45:35 2023] Launched impl_1...
+Run output will be captured here: C:/Users/DELL/Desktop/final_lab12/lab09_ver2.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 04 2020-05:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:02 ; elapsed = 00:00:20 . Memory (MB): peak = 2675.980 ; gain = 0.539
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B61CCAA
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210292B61CCAA.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/final_lab12/lab09_ver2.runs/impl_1/lab09.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 23 10:51:45 2023...

@@ -1,0 +1,9 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+D:/CS/lab/lab11/lab11.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,
+D:/CS/lab/lab11/lab11.srcs/sim_1/new/lab11_test.v,1670487030,verilog,,,,testbench_cpu,,,,,,,,
+D:/CS/lab/lab11/lab11.srcs/sources_1/new/lab11_alu.v,1670332356,verilog,,D:/CS/lab/lab11/lab11.srcs/sources_1/new/lab11_cpu.v,,adder;alu;barrel,,,,,,,,
+D:/CS/lab/lab11/lab11.srcs/sources_1/new/lab11_cpu.v,1670487921,verilog,,D:/CS/lab/lab11/lab11.srcs/sources_1/new/lab11_mem.v,,rv32is,,,,,,,,
+D:/CS/lab/lab11/lab11.srcs/sources_1/new/lab11_mem.v,1670488257,verilog,,D:/CS/lab/lab11/lab11.srcs/sim_1/new/lab11_test.v,,dmem;regfile;testmem,,,,,,,,

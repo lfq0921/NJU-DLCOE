@@ -1,0 +1,122 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Thu Feb 23 10:46:38 2023
+| Host         : DESKTOP-381KS3H running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file lab09_control_sets_placed.rpt
+| Design       : lab09
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    44 |
+|    Minimum number of control sets                        |    44 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   148 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    44 |
+| >= 0 to < 4        |    11 |
+| >= 4 to < 6        |     8 |
+| >= 6 to < 8        |     5 |
+| >= 8 to < 10       |     3 |
+| >= 10 to < 12      |     5 |
+| >= 12 to < 14      |     1 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    11 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              18 |           14 |
+| No           | No                    | Yes                    |              10 |            4 |
+| No           | Yes                   | No                     |             157 |           54 |
+| Yes          | No                    | No                     |              28 |           19 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             215 |           93 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------+------------------------------------------+--------------------------------+------------------+----------------+--------------+
+|      Clock Signal      |               Enable Signal              |        Set/Reset Signal        | Slice Load Count | Bel Load Count | Bels / Slice |
++------------------------+------------------------------------------+--------------------------------+------------------+----------------+--------------+
+|  CLK50MHZ_BUFG         | keyboard/ps/buffer[7]_i_1_n_0            |                                |                1 |              1 |         1.00 |
+|  CLK50MHZ_BUFG         | keyboard/ps/buffer[1]_i_1_n_0            |                                |                1 |              1 |         1.00 |
+|  CLK50MHZ_BUFG         | keyboard/ps/buffer[4]_i_1_n_0            |                                |                1 |              1 |         1.00 |
+|  CLK50MHZ_BUFG         | keyboard/ps/buffer[6]_i_1_n_0            |                                |                1 |              1 |         1.00 |
+|  CLK50MHZ_BUFG         | keyboard/ps/buffer[5]_i_1_n_0            |                                |                1 |              1 |         1.00 |
+|  CLK50MHZ_BUFG         | keyboard/ps/buffer[9]_i_1_n_0            |                                |                1 |              1 |         1.00 |
+|  CLK50MHZ_BUFG         | keyboard/ps/buffer[3]_i_1_n_0            |                                |                1 |              1 |         1.00 |
+|  CLK50MHZ_BUFG         | keyboard/ps/buffer[0]_i_1_n_0            |                                |                1 |              1 |         1.00 |
+|  CLK50MHZ_BUFG         | keyboard/ps/buffer[2]_i_1_n_0            |                                |                1 |              1 |         1.00 |
+|  CLK50MHZ_BUFG         | keyboard/ps/buffer[8]_i_1_n_0            |                                |                1 |              1 |         1.00 |
+|  clkgen_10KHZ/CLK10KHZ |                                          |                                |                1 |              3 |         3.00 |
+|  CLK100MHZ_IBUF_BUFG   |                                          |                                |                4 |              4 |         1.00 |
+|  VGA_CLK_BUFG          |                                          | my_vga/h_font[3]_i_1_n_0       |                1 |              4 |         4.00 |
+|  CLK50MHZ_BUFG         | keyboard/ps/sampling                     | SW_IBUF[0]                     |                1 |              4 |         4.00 |
+|  CLK50MHZ_BUFG         | keyboard/ti_state_reg[1]_0[0]            | FSM_onehot_in_state[3]_i_1_n_0 |                4 |              5 |         1.25 |
+|  CLK50MHZ_BUFG         | keyboard/FSM_onehot_in_state_reg[0][0]   | FSM_onehot_in_state[3]_i_1_n_0 |                2 |              5 |         2.50 |
+|  CLK50MHZ_BUFG         | keyboard/FSM_onehot_in_state_reg[0]_0[0] | FSM_onehot_in_state[3]_i_1_n_0 |                2 |              5 |         2.50 |
+|  CLK50MHZ_BUFG         | keyboard/FSM_onehot_in_state_reg[3][0]   | FSM_onehot_in_state[3]_i_1_n_0 |                3 |              5 |         1.67 |
+|  CLK50MHZ_BUFG         | keyboard/FSM_onehot_in_state_reg[3]_0[0] | FSM_onehot_in_state[3]_i_1_n_0 |                2 |              5 |         2.50 |
+|  CLK50MHZ_BUFG         | clear_point[6]_i_1_n_0                   | FSM_onehot_in_state[3]_i_1_n_0 |                2 |              6 |         3.00 |
+|  CLK50MHZ_BUFG         | keyboard/FSM_onehot_in_state_reg[3]_1[0] | FSM_onehot_in_state[3]_i_1_n_0 |                4 |              7 |         1.75 |
+|  VGA_CLK_BUFG          | my_vga/h_font[3]                         | my_vga/h_char[6]_i_1_n_0       |                2 |              7 |         3.50 |
+|  CLK50MHZ_BUFG         | un_ascii                                 | FSM_onehot_in_state[3]_i_1_n_0 |                5 |              7 |         1.40 |
+|  CLK50MHZ_BUFG         | hello_ascii                              | FSM_onehot_in_state[3]_i_1_n_0 |                4 |              7 |         1.75 |
+|  CLK50MHZ_BUFG         | keyboard/ps/ready_reg_0[0]               | keyboard/ps/SR[0]              |                2 |              8 |         4.00 |
+|  CLK50MHZ_BUFG         | keyboard/char_wr_reg[0]                  | FSM_onehot_in_state[3]_i_1_n_0 |                4 |              8 |         2.00 |
+|  CLK50MHZ_BUFG         | keyboard/ps/E[0]                         | SW_IBUF[0]                     |                5 |              8 |         1.60 |
+|  CLK50MHZ_BUFG         |                                          | SW_IBUF[0]                     |                4 |             10 |         2.50 |
+|  CLK50MHZ_BUFG         | factor                                   | FSM_onehot_in_state[3]_i_1_n_0 |                5 |             10 |         2.00 |
+|  VGA_CLK_BUFG          |                                          | SW_IBUF[0]                     |                4 |             10 |         2.50 |
+|  VGA_CLK_BUFG          | my_vga/y_cnt                             | my_vga/y_cnt[9]_i_1_n_0        |                5 |             10 |         2.00 |
+|  CLK50MHZ_BUFG         |                                          |                                |                9 |             11 |         1.22 |
+|  CLK50MHZ_BUFG         | keyboard/E[0]                            | FSM_onehot_in_state[3]_i_1_n_0 |                8 |             12 |         1.50 |
+|  CLK50MHZ_BUFG         | keyboard/ps/p_0_in__0                    |                                |                2 |             16 |         8.00 |
+|  CLK50MHZ_BUFG         | fib_num2                                 | FSM_onehot_in_state[3]_i_1_n_0 |                7 |             16 |         2.29 |
+|  CLK50MHZ_BUFG         | ti_sec                                   | FSM_onehot_in_state[3]_i_1_n_0 |                4 |             16 |         4.00 |
+|  CLK50MHZ_BUFG         | keyboard/fib_state_reg[0]_0[0]           | FSM_onehot_in_state[3]_i_1_n_0 |                4 |             16 |         4.00 |
+|  CLK50MHZ_BUFG         | keyboard/ti_flag_reg[0][0]               | FSM_onehot_in_state[3]_i_1_n_0 |                9 |             16 |         1.78 |
+|  CLK50MHZ_BUFG         | SW_IBUF[1]                               |                                |                9 |             18 |         2.00 |
+|  CLK100MHZ_IBUF_BUFG   |                                          | clkgen_10KHZ/cnt[0]_i_1__1_n_0 |                8 |             32 |         4.00 |
+|  CLK100MHZ_IBUF_BUFG   |                                          | my_vgaclk/clear                |                8 |             32 |         4.00 |
+|  CLK50MHZ_BUFG         | fib_num1                                 | FSM_onehot_in_state[3]_i_1_n_0 |                9 |             32 |         3.56 |
+|  CLK100MHZ_IBUF_BUFG   |                                          | my_1sclk/cnt[0]_i_1__0_n_0     |                8 |             32 |         4.00 |
+|  CLK50MHZ_BUFG         |                                          | FSM_onehot_in_state[3]_i_1_n_0 |               25 |             47 |         1.88 |
++------------------------+------------------------------------------+--------------------------------+------------------+----------------+--------------+
+
+

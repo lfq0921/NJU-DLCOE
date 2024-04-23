@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+H:/labs_Vivado/lab09_ver2/lab09_ver2.gen/sources_1/ip/char_buf/sim/char_buf.v,1669523637,verilog,,H:/labs_Vivado/lab09_ver2/lab09_ver2.srcs/sources_1/new/lab09.v,,char_buf,,,,,,,,
+H:/labs_Vivado/lab09_ver2/lab09_ver2.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+H:/labs_Vivado/lab09_ver2/lab09_ver2.srcs/sources_1/new/lab09.v,1669525783,verilog,,,,bcd7seg;clkgen;lab09;ps2_keyboard;scancode_ram;vga_ascii;vga_ctrl,,,,,,,,

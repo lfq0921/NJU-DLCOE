@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/labs_Vivado/lab09_ver2/lab09_ver2.gen/sources_1/ip/char_buf/sim/char_buf.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module char_buf
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/labs_Vivado/lab09_ver2/lab09_ver2.srcs/sources_1/new/lab09.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bcd7seg
+INFO: [VRFC 10-311] analyzing module clkgen
+INFO: [VRFC 10-311] analyzing module ps2_keyboard
+INFO: [VRFC 10-311] analyzing module vga_ascii
+INFO: [VRFC 10-311] analyzing module scancode_ram
+INFO: [VRFC 10-311] analyzing module vga_ctrl
+INFO: [VRFC 10-311] analyzing module lab09
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/labs_Vivado/lab09_ver2/lab09_ver2.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

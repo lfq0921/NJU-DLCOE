@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Oct 14 15:34:23 2022
+# Process ID: 9016
+# Current directory: D:/CS/lab/lab04/lab04.runs/impl_1
+# Command line: vivado.exe -log timer_60s.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source timer_60s.tcl -notrace
+# Log file: D:/CS/lab/lab04/lab04.runs/impl_1/timer_60s.vdi
+# Journal file: D:/CS/lab/lab04/lab04.runs/impl_1\vivado.jou
+# Running On: DESKTOP-FKMFD8S, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16844 MB
+#-----------------------------------------------------------
+source timer_60s.tcl -notrace

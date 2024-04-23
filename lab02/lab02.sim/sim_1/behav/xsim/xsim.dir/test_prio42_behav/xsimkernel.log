@@ -1,0 +1,7 @@
+Running: xsim.dir/test_prio42_behav/xsimk.exe -simmode gui -wdb test_prio42_behav.wdb -simrunnum 0 -socket 59908
+Design successfully loaded
+Design Loading Memory Usage: 7140 KB (Peak: 7140 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 7632 KB (Peak: 7632 KB)
+Simulation CPU Usage: 46 ms

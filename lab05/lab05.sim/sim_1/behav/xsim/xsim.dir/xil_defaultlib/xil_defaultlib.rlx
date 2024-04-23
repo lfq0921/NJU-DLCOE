@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+E:/digital_logic/lab/lab05/lab05.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1666093074,verilog,,E:/digital_logic/lab/lab05/lab05.srcs/sources_1/new/Register.v,,blk_mem_gen_0,,,,,,,,
+E:/digital_logic/lab/lab05/lab05.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+E:/digital_logic/lab/lab05/lab05.srcs/sim_1/new/lab05_test.v,1666100199,verilog,,,,lab05_test,,,,,,,,
+E:/digital_logic/lab/lab05/lab05.srcs/sources_1/new/Register.v,1666100621,verilog,,E:/digital_logic/lab/lab05/lab05.srcs/sim_1/new/lab05_test.v,,Register;bcd7seg;clkgen;decode38;lab05;sevenseg,,,,,,,,

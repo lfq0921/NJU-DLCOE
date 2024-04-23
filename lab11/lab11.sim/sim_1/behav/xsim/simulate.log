@@ -1,0 +1,15 @@
+Time resolution is 1 ps
+---Begin test case                            add-----
+cycle=          x, pc=00000000, instruct= xxxxxxxx op=xx, rs1=xx,rs2=xx, rd=xx, t1=00000000, t2=00000000, t3=00000000
+cycle=          x, pc=00000000, instruct= 06400313 op=13, rs1=00,rs2=04, rd=06, t1=00000000, t2=00000000, t3=00000000
+cycle=          0, pc=00000000, instruct= 06400313 op=13, rs1=00,rs2=04, rd=06, t1=00000000, t2=00000000, t3=00000000
+cycle=          0, pc=00000004, instruct= 01400393 op=13, rs1=00,rs2=14, rd=07, t1=00000064, t2=00000000, t3=00000000
+cycle=          1, pc=00000004, instruct= 01400393 op=13, rs1=00,rs2=14, rd=07, t1=00000064, t2=00000000, t3=00000000
+OK: end of cycle           0 reg 06 need to be 00000064, get 00000064
+cycle=          1, pc=00000008, instruct= 00730e33 op=33, rs1=06,rs2=07, rd=1c, t1=00000064, t2=00000014, t3=00000000
+cycle=          2, pc=00000008, instruct= 00730e33 op=33, rs1=06,rs2=07, rd=1c, t1=00000064, t2=00000014, t3=00000000
+OK: end of cycle           1 reg 07 need to be 00000014, get 00000014
+cycle=          2, pc=0000000c, instruct= xxxxxxxx op=xx, rs1=xx,rs2=xx, rd=xx, t1=00000064, t2=00000014, t3=00000078
+cycle=          3, pc=0000000c, instruct= xxxxxxxx op=xx, rs1=xx,rs2=xx, rd=xx, t1=00000064, t2=00000014, t3=00000078
+OK: end of cycle           2 reg 1c need to be 00000078, get 00000078
+$stop called at time : 165 ns : File "D:/CS/lab/lab11/lab11.srcs/sim_1/new/lab11_test.v" Line 128

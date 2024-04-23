@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Oct  6 17:47:11 2022
+# Process ID: 15436
+# Current directory: D:/CS/lab/lab03/lab03.runs/impl_1
+# Command line: vivado.exe -log alu_seg.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source alu_seg.tcl -notrace
+# Log file: D:/CS/lab/lab03/lab03.runs/impl_1/alu_seg.vdi
+# Journal file: D:/CS/lab/lab03/lab03.runs/impl_1\vivado.jou
+# Running On: DESKTOP-FKMFD8S, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16844 MB
+#-----------------------------------------------------------
+source alu_seg.tcl -notrace

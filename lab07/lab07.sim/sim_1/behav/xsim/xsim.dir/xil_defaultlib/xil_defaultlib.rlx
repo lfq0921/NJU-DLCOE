@@ -1,0 +1,10 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+D:/CS/lab/lab07/lab07.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,
+D:/CS/lab/lab07/lab07.srcs/sim_1/new/lab07_test.v,1668079532,verilog,,,,keyboard_sim;keyboard_sim_b,,,,,,,,
+D:/CS/lab/lab07/lab07.srcs/sources_1/new/clk_gen.v,1665732794,verilog,,D:/CS/lab/lab07/lab07.srcs/sources_1/new/lab07_kb.v,,clkgen,,,,,,,,
+D:/CS/lab/lab07/lab07.srcs/sources_1/new/lab07_fsm.v,1667031283,verilog,,D:/CS/lab/lab07/lab07.srcs/sim_1/new/lab07_test.v,,FSM_bin,,,,,,,,
+D:/CS/lab/lab07/lab07.srcs/sources_1/new/lab07_kb.v,1668082084,verilog,,D:/CS/lab/lab07/lab07.srcs/sources_1/new/seg.v,,keyboard;keyboard_b;keyboard_t;ps2_keyboard;ps2_keyboard_model;scancode_ram,,,,,,,,
+D:/CS/lab/lab07/lab07.srcs/sources_1/new/seg.v,1668013996,verilog,,D:/CS/lab/lab07/lab07.srcs/sim_1/new/lab07_test.v,,bcd7seg;decode38;sevenseg,,,,,,,,

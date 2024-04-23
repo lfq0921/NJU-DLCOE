@@ -1,0 +1,2 @@
+char_buf.v,verilog,xil_defaultlib,../../../../lab09_ver2.gen/sources_1/ip/char_buf/sim/char_buf.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

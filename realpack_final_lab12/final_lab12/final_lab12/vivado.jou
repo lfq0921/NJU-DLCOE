@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed May 24 18:58:16 2023
+# Process ID: 15632
+# Current directory: H:/DigitalLab/realpack_final_lab12/final_lab12/final_lab12
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28576 H:\DigitalLab\realpack_final_lab12\final_lab12\final_lab12\lab09_ver2.xpr
+# Log file: H:/DigitalLab/realpack_final_lab12/final_lab12/final_lab12/vivado.log
+# Journal file: H:/DigitalLab/realpack_final_lab12/final_lab12/final_lab12\vivado.jou
+# Running On: LAPTOP-F8OKT164, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 29909 MB
+#-----------------------------------------------------------
+start_gui
+open_project H:/DigitalLab/realpack_final_lab12/final_lab12/final_lab12/lab09_ver2.xpr
+open_hw_manager
+update_compile_order -fileset sources_1
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {H:/DigitalLab/realpack_final_lab12/final_lab12/final_lab12/lab09_ver2.runs/impl_1/lab09.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {H:/DigitalLab/realpack_final_lab12/final_lab12/final_lab12/lab09_ver2.runs/impl_1/lab09.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {H:/DigitalLab/realpack_final_lab12/final_lab12/final_lab12/lab09_ver2.runs/impl_1/lab09.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {H:/DigitalLab/realpack_final_lab12/final_lab12/final_lab12/lab09_ver2.runs/impl_1/lab09.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]

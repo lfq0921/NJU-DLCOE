@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1666282613">
+  <File Type="ROUTE-PWR" Name="Timer_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Timer.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="Timer_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Timer_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="Timer.msk"/>
+  <File Type="ROUTE-CLK" Name="Timer_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="Timer.vdi"/>
+  <File Type="BG-BIT" Name="Timer.bit"/>
+  <File Type="BG-DRC" Name="Timer.drc"/>
+  <File Type="BG-BGN" Name="Timer.bgn"/>
+  <File Type="BG-BIN" Name="Timer.bin"/>
+  <File Type="BITSTR-RBT" Name="Timer.rbt"/>
+  <File Type="BITSTR-NKY" Name="Timer.nky"/>
+  <File Type="BITSTR-BMM" Name="Timer_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Timer.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Timer_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="Timer.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Timer_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Timer.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="Timer_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Timer.hwdef"/>
+  <File Type="PLACE-IO" Name="Timer_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Timer_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Timer_utilization_placed.pb"/>
+  <File Type="ROUTE-RQS" Name="Timer_routed.rqs"/>
+  <File Type="PLACE-CTRL" Name="Timer_control_sets_placed.rpt"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Timer_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="ROUTE-DRC" Name="Timer_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Timer_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Timer_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Timer_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Timer_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="Timer_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Timer_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Timer_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Timer_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Timer_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Timer_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Timer_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Timer_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Timer_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="Timer_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="Timer_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="Timer_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Timer_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="Timer_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Timer_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Timer_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-DRC-RPX" Name="Timer_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Timer_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="Timer.pdi"/>
+  <File Type="RCFI_FILE" Name="Timer.rcfi"/>
+  <File Type="CFI_FILE" Name="Timer.cfi"/>
+  <File Type="RNPI_FILE" Name="Timer.rnpi"/>
+  <File Type="NPI_FILE" Name="Timer.npi"/>
+  <File Type="RBD_FILE" Name="Timer.rbd"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Timer_postroute_physopted.rqs"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/lab04.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/bcd7seg.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sevenseg.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/decode38.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clkgen.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/counter.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Timer"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../nexysa7-04.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/lab04.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

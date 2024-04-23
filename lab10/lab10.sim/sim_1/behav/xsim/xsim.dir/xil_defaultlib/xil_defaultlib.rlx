@@ -1,0 +1,7 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+D:/CS/lab/lab10/lab10.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,
+D:/CS/lab/lab10/lab10.srcs/sim_1/new/lab10_test.v,1667753935,verilog,,,,alu_t;dmem_t,,,,,,,,
+D:/CS/lab/lab10/lab10.v,1667664309,verilog,,D:/CS/lab/lab10/lab10.srcs/sim_1/new/lab10_test.v,,adder;alu;barrel;dmem,,,,,,,,

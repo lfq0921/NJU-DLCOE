@@ -1,0 +1,49 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Fri Oct 21 01:19:51 2022
+| Host         : LAPTOP-F8OKT164 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file alu_s_methodology_drc_routed.rpt -pb alu_s_methodology_drc_routed.pb -rpx alu_s_methodology_drc_routed.rpx
+| Design       : alu_s
+| Device       : xc7a100tcsg324-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 2
++--------+----------+-------------------------------------------------+------------+
+| Rule   | Severity | Description                                     | Violations |
++--------+----------+-------------------------------------------------+------------+
+| XDCC-5 | Warning  | User Non-Timing constraint/property overwritten | 2          |
++--------+----------+-------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+XDCC-5#1 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on ALUctr[0] overrides a previous user property.
+New Source: H:/DigitalLab/nexysa7-03.xdc (Line: 213)
+Previous Source: H:/DigitalLab/nexysa7-03.xdc (Line: 20)
+Related violations: <none>
+
+XDCC-5#2 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on ALUctr[1] overrides a previous user property.
+New Source: H:/DigitalLab/nexysa7-03.xdc (Line: 212)
+Previous Source: H:/DigitalLab/nexysa7-03.xdc (Line: 21)
+Related violations: <none>
+
+
